@@ -13,7 +13,7 @@ function calculateTip() {
 
   document.getElementById(
     "result"
-  ).innerText = `Es sind insgesamt: €${totalPerPerson.toFixed(2)} zu bezahlen`;
+  ).innerText = `Pro Person sind: €${totalPerPerson.toFixed(2)} zu bezahlen`;
   document
     .getElementById("reload-button")
     .addEventListener("click", function () {
