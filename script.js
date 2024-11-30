@@ -4,7 +4,8 @@ function calculateTip() {
   const people = parseInt(document.getElementById("people").value);
 
   if (!bill || !tip || !people || people <= 0) {
-    document.getElementById("result").innerText = "Please enter valid inputs!";
+    document.getElementById("result").innerText =
+      "Bitte trage gültige Werte ein!";
     return;
   }
 
